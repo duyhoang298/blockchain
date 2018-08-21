@@ -20,4 +20,4 @@ const currentBlockData = [
     }
 ];
 
-console.log(bc.hashBlock(previousHashBlock, currentBlockData, nonce));
+console.log(bc.proofOfWork(previousHashBlock, currentBlockData, nonce));
